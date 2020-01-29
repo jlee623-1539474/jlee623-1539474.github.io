@@ -1,0 +1,58 @@
+body{
+    background-color: pink;
+}
+
+h2{
+    font-family:verdana;
+    font-size:18px;
+}
+
+#NewbieImg{
+    height: 50px;
+	width: 50px;
+}
+
+#ExtraNewbie{
+    font-family:verdana;
+    color:green; 
+    font-size:12px; 
+    border: solid purple 3px;
+    width: 800px;
+    padding:2px;
+}
+
+#ApprenticeImg{
+    height: 500px;
+    width: 500px;
+    margin: 20px;
+}
+
+#container{
+    position: relative;
+    text-align: center;
+}
+
+#centered{
+    position: absolute;
+    border: dotted;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+}
+
+#float{
+    font-family:verdana;
+    font-size: 12px;
+    border: solid 3px;
+    float: right;
+    padding: 5px;
+    width: 400px;
+}
+
+#rounded{
+    border-radius: 15px;
+    border: solid 3px;
+    padding: 5px;
+    width: 400px;
+}
